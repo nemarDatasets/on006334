@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on006334-blue)](https://doi.org/10.82901/nemar.on006334)
+
 General information:
 
 This repository contains the raw MEG data, T1-weighted anatomical scans, the corresponding behavioural logfiles, as well as the scripts to perform analyses and results reported in the manuscript: 
