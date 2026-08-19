@@ -2,6 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Neocortical and Hippocampal Theta Oscillations Track Audiovisual Integration and Replay of Speech Memories",
+  "description": "This dataset comprises raw magnetoencephalography (MEG) recordings, T1-weighted anatomical MRI scans, and behavioural logfiles collected during an audiovisual speech memory paradigm. Participants performed encoding, distractor, and retrieval tasks designed to probe theta oscillatory dynamics underlying audiovisual integration and memory replay of speech content. The data support analyses of neocortical and hippocampal theta oscillations reported in an associated Journal of Neuroscience publication.",
+  "methods_description": "Each experimental block consisted of three successive tasks: encoding (audiovisual synchrony detection to speech movies), distractor (odd/even number judgment), and retrieval (recall and matching of speech stimuli associated with a speaker's face). MEG data were recorded continuously in a single session per participant, split automatically into multiple runs, with associated behavioural responses and trigger codes marking movie onset, visual cue onset, speech stimulus onsets, probe responses, and localiser onsets. Some participants also had individual T1-weighted anatomical scans.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -11,6 +13,30 @@
     "Jensen O": {},
     "Hanslmayr S": {}
   },
+  "keywords": [
+    {
+      "term": "MEG"
+    },
+    {
+      "term": "theta oscillations"
+    },
+    {
+      "term": "Hippocampus",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D006624"
+    },
+    {
+      "term": "audiovisual speech"
+    },
+    {
+      "term": "memory retrieval"
+    },
+    {
+      "term": "Neocortex",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D019579"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds006334.v1.0.0",
@@ -20,7 +46,7 @@
     {
       "identifier": "10.1523/JNEUROSCI.1797-24.2025",
       "identifier_type": "DOI",
-      "relation_type": "References"
+      "relation_type": "IsDescribedBy"
     },
     {
       "identifier": "https://github.com/nemarDatasets/on006334",
@@ -47,18 +73,14 @@
     {
       "funder_name": "Economic and Social Research Council",
       "award_number": "ES/R010072/1"
-    },
-    {
-      "funder_name": "University of Liverpool",
-      "award_title": "Tenure-Track Fellowship"
     }
   ],
   "resource_type_general": "Dataset",
+  "resource_type_specific": "Structural MRI Dataset",
   "modalities": [
     "anat",
     "meg"
   ],
-  "resource_type_specific": "Structural MRI Dataset",
   "sizes": [
     "184.6 GB (635 files)"
   ],
@@ -85,30 +107,6 @@
     ".xlsx",
     ".yml",
     ".zip"
-  ],
-  "description": "This dataset contains raw MEG recordings, anatomical T1-weighted MRI scans, and behavioral data from an audiovisual speech memory study. Participants performed a three-phase task involving encoding of audiovisual speech movies with synchrony judgments, a distractor task, and retrieval of speech memories cued by speaker faces. The study investigates how neocortical and hippocampal theta oscillations support audiovisual integration and memory replay of speech information.",
-  "methods_description": "MEG data were collected during a single session per participant using continuous recording split into five runs. The experimental paradigm consisted of repeated blocks with three successive tasks: (1) encoding phase with audiovisual speech movies (5 s) and synchrony detection responses, (2) distractor phase with odd/even number judgments (20 trials), and (3) retrieval phase with visual speaker cues (5 s) followed by two-alternative forced choice between matching and non-matching auditory speech stimuli. Anatomical T1-weighted MRI scans were acquired for some participants.",
-  "keywords": [
-    {
-      "term": "MEG"
-    },
-    {
-      "term": "theta oscillations"
-    },
-    {
-      "term": "audiovisual integration"
-    },
-    {
-      "term": "speech memory"
-    },
-    {
-      "term": "Hippocampus",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D006624"
-    },
-    {
-      "term": "memory retrieval"
-    }
   ],
   "source_hash": "d1c132157778cde0d783f9778558691c03bc5001db43bc08f239786616dd88c4"
 }
