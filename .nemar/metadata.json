@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Neocortical and Hippocampal Theta Oscillations Track Audiovisual Integration and Replay of Speech Memories",
-  "description": "This dataset comprises raw magnetoencephalography (MEG) recordings, T1-weighted anatomical MRI scans, and behavioural logfiles collected during an audiovisual speech memory paradigm. Participants performed encoding, distractor, and retrieval tasks designed to probe theta oscillatory dynamics underlying audiovisual integration and memory replay of speech content. The data support analyses of neocortical and hippocampal theta oscillations reported in an associated Journal of Neuroscience publication.",
-  "methods_description": "Each experimental block consisted of three successive tasks: encoding (audiovisual synchrony detection to speech movies), distractor (odd/even number judgment), and retrieval (recall and matching of speech stimuli associated with a speaker's face). MEG data were recorded continuously in a single session per participant, split automatically into multiple runs, with associated behavioural responses and trigger codes marking movie onset, visual cue onset, speech stimulus onsets, probe responses, and localiser onsets. Some participants also had individual T1-weighted anatomical scans.",
+  "description": "Raw MEG dataset with T1-weighted anatomical scans and behavioural logfiles from an audiovisual speech memory experiment. Participants completed repeated blocks of encoding (audiovisual synchrony detection on speech movies), a distractor task, and cued retrieval of the auditory speech associated with a speaker's face. The data support analyses of neocortical and hippocampal theta oscillations in audiovisual integration and memory replay.",
+  "methods_description": "MEG was recorded continuously during a single session per participant, split automatically into five runs. Each block comprised encoding, distractor (odd/even judgement), and retrieval tasks, with button-press responses. Event triggers mark movie onset, visual cue, speech stimuli, responses, and localisers. T1-weighted anatomical scans are available for some participants.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -21,20 +21,16 @@
       "term": "theta oscillations"
     },
     {
-      "term": "Hippocampus",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D006624"
+      "term": "audiovisual integration"
     },
     {
-      "term": "audiovisual speech"
+      "term": "speech memory"
+    },
+    {
+      "term": "hippocampus"
     },
     {
       "term": "memory retrieval"
-    },
-    {
-      "term": "Neocortex",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D019579"
     }
   ],
   "related_identifiers": [
@@ -82,7 +78,7 @@
     "meg"
   ],
   "sizes": [
-    "184.6 GB (635 files)"
+    "172 GB (635 files)"
   ],
   "formats": [
     ".class",
